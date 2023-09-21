@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Тестовое задание popup</title>
+    <link rel="stylesheet" href="./vendor/fonts.css">
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <button>Открыть Попап</button>
+<body class="body">
+    <button class="button-open" type="button">Открыть Попап</button>
 
-    <div class="popup popup_opened">
+    <div class="popup">
         <div class="popup__group">
             <h2 class="popup__title">Стать партнёром проекта</h2>
             <form class="popup__form">
@@ -47,7 +48,7 @@
                         </div>
                     </div>
 
-                    <div class="popup__input-container">
+                    <div class="popup__input-container popup__input-container-avatar">
                         <label class="popup__label"><span>✱</span> Логотип (jpeg, png)</label>
                         <div class="popup__avatar-container">
 
@@ -201,4 +202,5 @@
     </div>
 </body>
 
+<script src="./scripts/scripts.js"></script>
 </html>
